@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(37, 49, 206);
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.afdField {
+    width : 50%;
+    text-align: center;
+    margin: 5px 25%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.afdButton {
+    background-color: red;
+    text-align: center;
+    margin: 5px 25%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: red;
+}
+
+.afdButtonContainer {
+    text-align: center;
+    margin: 5px 25%;
+    font-size: larger;
+}
+
+.afdIntroduction {
+    width : 50%;
+    text-align: center;
+    margin: 20px 25%;
+    padding: 20px;
+}
+
+.afdHeading {
+    width : 50%;
+    text-align: center;
+    margin: 5px 25%;
+}
+
+.afdResults {
+   font-size: 40px;
+   padding: 10px;
+   font-weight: bolder;
+}
+
+.afdPadding {
+    padding: 10px;
+}
