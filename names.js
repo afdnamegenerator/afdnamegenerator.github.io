@@ -1,8 +1,8 @@
-const a = ['Affe', 'Anglizismus', 'Alligator', 'Anfänger', 'Allergikerin', 'Angst', 'Apfelbaum', 'Automobil', 'Agnostiker']
+const a = ['Affe', 'Anglizismus', 'Alligator', 'Anfänger', 'Allergikerin', 'Angst', 'Apfelbaum', 'Automobil', 'Agnostiker', 'Augenarzt', 'Alarm']
 
-const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet', 'für', 'fürchtet', 'fingiert', 'filtert', 'füllt', 'furzt', 'fällt']
+const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet', 'für', 'fürchtet', 'fingiert', 'filetiert', 'füllt', 'furzt', 'fällt']
 
-const d = ['Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche', 'Dürre', 'Darmspiegelung', 'Dachsbau', 'Dünger', 'Degen']
+const d = ['Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche', 'Dürre', 'Darmspiegelung', 'Dachsbau', 'Dünger', 'Degen', 'Deckel', 'Drogen']
 
 var currentName = "Try the AfDNameCreator!"
 
@@ -17,6 +17,7 @@ function genName() {
 }
 
 function setText() {
-    var textfield = document.getElementById("afdField");
-    textfield.innerHTML = "<div class='afdResults'>".concat(genName(), "</div>");
+    var textField = document.getElementById("afdField");
+    let textContent = "<div class='afdResults'>".concat(genName(), "</div>");
+    textField.innerHTML = textContent;
 }
