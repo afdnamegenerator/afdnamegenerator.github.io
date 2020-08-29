@@ -1,8 +1,8 @@
-const a = ['Affe', 'Anglizismus', 'Alligator', 'Anfänger']
+const a = ['Affe', 'Anglizismus', 'Alligator', 'Anfänger', 'Allergikerin', 'Angst', 'Apfelbaum', 'Automobil', 'Agnostiker']
 
-const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet']
+const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet', 'für', 'fürchtet', 'fingiert', 'filtert', 'füllt', 'furzt', 'fällt']
 
-const d = ['Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche']
+const d = ['Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche', 'Dürre', 'Darmspiegelung', 'Dachsbau', 'Dünger', 'Degen']
 
 var currentName = "Try the AfDNameCreator!"
 
