@@ -2,50 +2,50 @@ body {
     background-color: rgb(37, 49, 206);
     color: white;
     font-family: Helvetica, sans-serif;
+    font-size: bold;
 }
 
 .afdField {
-    width : 100%;
+    width : 90%;
     text-align: center;
-    margin: 1rem 0%;
-    padding: 1rem;
+    margin: 1rem 5%;
     font-size: 5rem;
 }
 
 .afdButton {
     background-color: red;
     text-align: center;
-    margin: 0.5rem 0%;
+    margin: 0.5rem 5%;
     font-size: 3rem;
     font-weight: bold;
     color: black;
-    padding: 0.5rem;
     border-radius: 10%;
     border-color: red;
 }
 
 .afdButtonContainer {
     text-align: center;
-    margin: 1rem 0%;
+    margin: 1rem 5%;
     font-size: larger;
 }
 
 .afdIntroduction {
-    width : 100%;
+    width : 90%;
     text-align: center;
-    margin: 2rem 0%;
-    padding: 1rem;
+    margin: 2rem 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .afdHeading {
-    width : 100%;
+    width : 90%;
     text-align: center;
-    margin: 2rem 0%;
+    font-size: 1.5em;
+    margin: 2rem 5%;
 }
 
 .afdResults {
    font-size: 3rem;
-   padding: 1rem;
    font-weight: bolder;
 }
 
@@ -55,5 +55,5 @@ body {
 
 #afdTweetContainer {
     text-align: center;
-    margin: 0.5rem 0%;
+    margin: 0.5rem 5%;
 }
