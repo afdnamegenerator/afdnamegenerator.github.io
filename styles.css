@@ -5,9 +5,9 @@ body {
 }
 
 .afdField {
-    width : 80%;
+    width : 100%;
     text-align: center;
-    margin: 1rem 10%;
+    margin: 1rem 0%;
     padding: 1rem;
     font-size: 5rem;
 }
@@ -15,7 +15,7 @@ body {
 .afdButton {
     background-color: red;
     text-align: center;
-    margin: 0.5rem 10%;
+    margin: 0.5rem 0%;
     font-size: 3rem;
     font-weight: bold;
     color: black;
@@ -26,21 +26,21 @@ body {
 
 .afdButtonContainer {
     text-align: center;
-    margin: 1rem 25%;
+    margin: 1rem 0%;
     font-size: larger;
 }
 
 .afdIntroduction {
-    width : 80%;
+    width : 100%;
     text-align: center;
-    margin: 2rem 10%;
+    margin: 2rem 0%;
     padding: 1rem;
 }
 
 .afdHeading {
-    width : 80%;
+    width : 100%;
     text-align: center;
-    margin: 2rem 10%;
+    margin: 2rem 0%;
 }
 
 .afdResults {
@@ -55,5 +55,5 @@ body {
 
 #afdTweetContainer {
     text-align: center;
-    margin: 0.5rem 25%;
+    margin: 0.5rem 0%;
 }
