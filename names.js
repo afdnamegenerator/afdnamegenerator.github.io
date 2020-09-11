@@ -16,8 +16,31 @@ function genName() {
     return currentName
 }
 
+function genTweetButton() {
+    var tweetButton = document.createElement("a");
+    tweetButton.classList += "twitter-share-button";
+    tweetButton.innerHTML = "Tweet"
+    tweetButton.id = "tweetButton"
+    tweetButton.setAttribute("data-size", "large")
+    tweetButton.setAttribute("data-text", currentName)
+    tweetButton.setAttribute("data-hashtags", "AfD,washeißteigentlichafd,afdnamegenerator")
+    tweetButton.setAttribute("data-url", "https://afdnamegenerator.github.io/")
+    tweetButton.setAttribute("data-lang", "de")
+    tweetButton.setAttribute("data-show-count", "false")
+    return tweetButton
+}
+
 function setText() {
-    var textField = document.getElementById("afdField");
+    let textField = document.getElementById("afdField");
     let textContent = "<div class='afdResults'>".concat(genName(), "</div>");
     textField.innerHTML = textContent;
+    if (document.getElementById("afdTweetButtonContainer")) {
+        var oldButton = document.getElementById("afdTweetButtonContainer")
+        oldButton.parentNode.removeChild(oldButton)
+    };
+    var afdTweetButtonContainer = document.createElement("div");
+    afdTweetButtonContainer.id = "afdTweetButtonContainer"
+    document.getElementById("afdTweetContainer").appendChild(afdTweetButtonContainer);
+    document.getElementById("afdTweetButtonContainer").appendChild(genTweetButton());
+    twttr.widgets.load();
 }
