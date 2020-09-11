@@ -41,6 +41,8 @@ function setText() {
     var afdTweetButtonContainer = document.createElement("div");
     afdTweetButtonContainer.id = "afdTweetButtonContainer"
     document.getElementById("afdTweetContainer").appendChild(afdTweetButtonContainer);
-    document.getElementById("afdTweetButtonContainer").appendChild(genTweetButton());
+    if (window.twttr) {
+        document.getElementById("afdTweetButtonContainer").appendChild(genTweetButton());
+    }
     twttr.widgets.load();
 }
