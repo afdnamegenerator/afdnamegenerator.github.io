@@ -5,9 +5,9 @@ body {
 }
 
 .afdField {
-    width : 50%;
+    width : 80%;
     text-align: center;
-    margin: 1rem 25%;
+    margin: 1rem 10%;
     padding: 1rem;
     font-size: 5rem;
 }
@@ -15,7 +15,7 @@ body {
 .afdButton {
     background-color: red;
     text-align: center;
-    margin: 0.5rem 25%;
+    margin: 0.5rem 10%;
     font-size: 3rem;
     font-weight: bold;
     color: black;
@@ -31,16 +31,16 @@ body {
 }
 
 .afdIntroduction {
-    width : 50%;
+    width : 80%;
     text-align: center;
-    margin: 2rem 25%;
+    margin: 2rem 10%;
     padding: 1rem;
 }
 
 .afdHeading {
-    width : 50%;
+    width : 80%;
     text-align: center;
-    margin: 2rem 25%;
+    margin: 2rem 10%;
 }
 
 .afdResults {
