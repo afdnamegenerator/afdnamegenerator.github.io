@@ -43,6 +43,6 @@ function setText() {
     document.getElementById("afdTweetContainer").appendChild(afdTweetButtonContainer);
     if (window.twttr) {
         document.getElementById("afdTweetButtonContainer").appendChild(genTweetButton());
+        twttr.widgets.load();
     }
-    twttr.widgets.load();
 }
