@@ -1,8 +1,8 @@
-const a = ['Affe', 'Anglizismus', 'Alligator', 'Anfänger', 'Allergikerin', 'Angst', 'Apfelbaum', 'Automobil', 'Agnostiker', 'Augenarzt', 'Alarm', 'Angler', 'Apothekerin', 'Analphabet']
+const a = ['Astronaut', 'Anatomie','Affäre', 'Affe', 'Anglizismus', 'Alligator', 'Anfänger', 'Allergikerin', 'Angst', 'Apfelbaum', 'Automobil', 'Agnostiker', 'Augenarzt', 'Alarm', 'Angler', 'Apothekerin', 'Analphabet', 'Alge', 'Alter', 'Arm', 'Atlas', 'Abfall', 'Akrobat']
 
-const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet', 'für', 'fürchtet', 'fingiert', 'filetiert', 'füllt', 'furzt', 'fällt', 'fasst', 'fühlt', 'festigt']
+const f = ['frisst', 'fordert', 'findet', 'fingert', 'fürchtet', 'für', 'fürchtet', 'fingiert', 'filetiert', 'füllt', 'furzt', 'fällt', 'fasst', 'fühlt', 'festigt', 'fabuliert', 'fabriziert', 'fälscht', 'färbt', 'faltet', 'fasziniert', 'fegt', 'forciert', 'fesselt', 'fertigt', 'fettet']
 
-const d = ['Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche', 'Dürre', 'Darmspiegelung', 'Dachsbau', 'Dünger', 'Degen', 'Deckel', 'Drogen', 'Dünnpfiff', 'Dunkelheit', 'Dienstplan', 'Dermatologe', 'Delle', 'Darbietungen', 'Dornen', 'Dackel']
+const d = ['Doppelgänger', 'Dudelsack', 'Dummheit', 'Dosenfleisch', 'Düsenjets', 'Deppen', 'Dusche', 'Dürre', 'Darmspiegelung', 'Dachsbau', 'Dünger', 'Degen', 'Deckel', 'Drogen', 'Dünnpfiff', 'Dunkelheit', 'Dienstplan', 'Dermatologe', 'Delle', 'Darbietungen', 'Dornen', 'Dackel', 'Dinosaurier', 'Dystopie']
 
 var currentName = "Try the AfDNameCreator!"
 
